@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="100" fill="red" /> />
+    <text x="25" y="60" font-size="30" font-weight="150" font-family="IMPACT">
+        Magics Components
+    </text>
+</svg>

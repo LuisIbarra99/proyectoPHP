@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100m" height="100m">
+
+    <circle cx="65" cy="75" r="85" fill="red"/>
+    <text color="white" x="3" y="65" fill="black" font-size="45">
+        MGS
+    </text>
+
+</svg>

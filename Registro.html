@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-A-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylePHP.css">
+    <link rel="stylesheet" href="css/StyleRegistro.css">
+</head>
+
+<body background="img/FondoR2.jpg">
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/Logo2.svg" alt="Logotipo de la pagina">
+                </a>
+                <nav id="navegacion" class="navegacion">
+                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Productos.html">Productos</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor seccion-contacto contenido-centrado">
+        <h2 class="fw-400 centrar-texto">Registro de usuario</h2>
+
+        <div class="Registro">
+            <form action="Registro.php" name="Registro" method="POST">
+                <fieldset>
+                    <legend>Informacion del Registro</legend>
+                    <Label for="Nombre">Nombre</Label>
+                    <input type="text" name="Nombre" id="Nombres" placeholder="Nombre">
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+                    <label for="Correo">Correo Electronico</label>
+                    <input type="email" name="Correo" id="Correo" placeholder="Correo Electronico">
+                    <label for="Usuario">Nombre de Usuario</label>
+                    <input type="text" name="NomUsuario" id="Usuario" placeholder="Nombre de Usuario">
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña">
+                    <label for="Telefono">Telefono</label>
+                    <input type="tel" name="Telefono" id="Tel" placeholder="Numero Telefonico">
+                    <input type="submit" value="Registrarse">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <div class="agrupar">
+                <nav class="navegacion">
+                    <a href="Nosotros.html">Nosotros</a>
+                    <a href="Productos.html">Productos</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Contacto.html">Contacto</a>
+                </nav>
+                <p class="copyright">Todos los derechos Reservados 2020 &copy;
+                </p>
+            </div>
+            <div class="agrupar fw-400">
+                <p>Torreón, Coahuila México</p>
+                <p>contacto@magicscomponents.com.mx</p>
+                <p>tel: 8714113537</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

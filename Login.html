@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-A-Compatible" content="ie=edge">
+    <title>Inicio de Sesion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/StyleLogin.css">
+    <link rel="stylesheet" href="css/stylePHP.css">
+</head>
+
+<body id="Fondo">
+    <div class="Login-box">
+        <img class="Avatar" src="img/Login.svg" alt="Logo Login">
+        <H1>Inicia Sesion</H1>
+        <form action="Login.php" method="POST">
+            <!--Usuario-->
+            <label for="Usuario">Usuario</label>
+            <input type="text" name="usuario" placeholder="Ingrese Su Usuario">
+            <!--Contraseña-->
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" name="contraseña" placeholder="Contraseña">
+
+            <input type="submit" value="Inicia Sesion">
+
+            <a href="#">No recuerdas tu contraseña?</a><br>
+            <a href="Registro.html">No tienes una cuenta</a>
+        </form>
+    </div>
+</body>
+
+</html>

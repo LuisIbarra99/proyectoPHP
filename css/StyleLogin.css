@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/FondoLogin.jpg) no-repeat center top;
+    background-size: cover;
+    height: 10rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Login-box {
+    width: 32rem;
+    height: 42rem;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 7rem 3rem;
+}
+
+.Login-box .Avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -5rem;
+    left: calc(50% - 5rem);
+}
+
+.Login-box H1 {
+    margin: 0;
+    padding: 0 0 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.Login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.Login-box input {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Login-box input[type="text"],
+.Login-box input[type="password"] {
+    border: none;
+    border-bottom: 0.6rem solid #c50000;
+    background: transparent;
+    outline: none;
+    height: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.Login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 4rem;
+    background: #c50000;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 2rem;
+}
+
+.Login-box a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgb(90, 89, 89);
+}
+
+.Login-box a:hover {
+    color: #fff;
+}

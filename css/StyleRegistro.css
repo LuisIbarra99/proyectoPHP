@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/FondoR2.jpg) no-repeat center top;
+    background-size: cover;
+    height: 105rem;
+}
+
+h2 {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Registro label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.Registro legend {
+    font-weight: bold;
+    color: #fff;
+}
+
+.Registro input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 3rem;
+    background: #5d5d5d;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.Registro input[type="submit"]:active {
+    transform: scale(1.5rem);
+}
